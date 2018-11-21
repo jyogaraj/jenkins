@@ -1,6 +1,6 @@
 FROM jenkins/jenkins
 
-ENV JAVA_OPTS="-Xmx8192m"
+ENV JAVA_OPTS="-Xmx2038m"
 USER root
 RUN apt-get update \
       && apt-get upgrade -y \
